@@ -61,13 +61,13 @@ module.exports = {
 ...
 ```
 
-Install necessary dependencies:
+Install necessary dependencies (the correct version is [1.2.3](https://stackoverflow.com/questions/66735307/truffle-contract-deployment-failed-invalid-sender)):
 
 ```
-npm install @truffle/hdwallet-provider
+npm install @truffle/hdwallet-provider@1.2.3
 ```
 
-Notice, it requires mnemonic to be passed in for Provider, this is the seed phrase for the account you'd like to deploy from. Create a new **.secret** file in root directory and enter your 12 word mnemonic seed phrase to get started. To get the seedwords from metamask wallet you can go to Metamask Settings, then from the menu choose Security and Privacy where you will see a button that says reveal seed words.
+Notice, it requires mnemonic to be passed in for Provider, this is the seed phrase for the account you'd like to deploy from. Create a new **.secret** file in root directory and enter your private key to get started. If you don't know how to do that, consult the official [Metamask guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
 
 And then:
 
