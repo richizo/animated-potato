@@ -74,3 +74,9 @@ And then:
 ```
 truffle migrate --network testnet
 ```
+
+To deploy to mainnet:
+
+```
+truffle migrate --network mainnet
+```
